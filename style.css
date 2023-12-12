@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Silkscreen", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #e2dbbe;
+}
+.container {
+  background-color: aqua;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #e2dbbe;
+}
+.game {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2dbbe;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  border: none;
+  font-size: 12vmin;
+  color: black;
+  background-color: #fff;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: #d0c495;
+}
+.resetBtn {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.5s ease;
+  font-size: 4vmin;
+}
+.buttons {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vmin;
+}
+.newGame {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.5s ease;
+  font-size: 3vmin;
+}
+.resetBtn:hover,
+.newGame:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
